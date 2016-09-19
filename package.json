@@ -1,6 +1,6 @@
 {
   "name": "gst-tools",
-  "version": "1.0.4",
+  "version": "1.0.2",
   "description": "gst tools",
   "main": "lib/index.js",
   "scripts": {
@@ -20,8 +20,7 @@
   },
   "author": {
     "name": "gst",
-    "email": "xieyihaod@gmail.com",
-    "url": "http://www.gstzy.cn/"
+    "url": "https://github.com/gstpack"
   },
   "license": "ISC",
   "readmeFilename": "README.md",
