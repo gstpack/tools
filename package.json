@@ -1,13 +1,10 @@
 {
   "name": "gst-tools",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "gst tools",
   "main": "lib/index.js",
   "scripts": {
-    "test": "node test/test.js",
-    "preversion": "npm test",
-    "version": "npm run build && git add -A dist",
-    "postversion": "git push && git push --tags && rm -rf build/temp"
+    "start": "node test/test.js"
   },
   "keywords": [
     "gst",
@@ -28,8 +25,7 @@
   },
   "license": "ISC",
   "readmeFilename": "README.md",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "babel-core": "^6.14.0",
     "babel-polyfill": "^6.13.0",
