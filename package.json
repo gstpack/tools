@@ -2,7 +2,7 @@
   "name": "gst-tools",
   "version": "1.0.5",
   "description": "gst tools",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "node test/test.js",
     "build": "babel src -d lib"
