@@ -4,6 +4,7 @@
   "description": "gst tools",
   "main": "lib/index.js",
   "scripts": {
+    "start": "node test.js",
     "preversion": "npm test",
     "version": "npm run build && git add -A dist",
     "postversion": "git push && git push --tags && rm -rf build/temp"
@@ -30,7 +31,8 @@
   "devDependencies": {
     "babel-core": "^6.14.0",
     "babel-polyfill": "^6.13.0",
-    "babel-preset-es2015": "^6.14.0"
+    "babel-preset-es2015": "^6.14.0",
+    "babel-register": "^6.14.0"
   },
   "dependencies": {
     "js-cookie": "^2.1.3"
